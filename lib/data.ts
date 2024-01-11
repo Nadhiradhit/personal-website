@@ -6,6 +6,9 @@ import eventifyImg from "@/public/images/eventifyImg.png"
 import audiobookImg from "@/public/images/audiobookImg.png"
 import newsinImg from "@/public/images/newsinImg.png"
 import techdabateImg from "@/public/images/techdabateImg.png"
+import { HiHome } from "react-icons/hi"
+import { SiAboutdotme, SiContactlesspayment, SiHomeadvisor, SiSaltproject, SiSkillshare } from "react-icons/si"
+import { AiFillExperiment } from "react-icons/ai"
 
 
 
@@ -13,26 +16,32 @@ export const links = [
     {
         name: "Home",
         hash: "#home",
+        icon: SiHomeadvisor
     },
     {
         name: "About",
         hash: "#about",
+        icon: SiAboutdotme
     },
     {
         name: "Projects",
-        hash: "#projects"
+        hash: "#projects",
+        icon: SiSaltproject
     },
     {
         name: "Skills",
-        hash: "#skill"
+        hash: "#skill",
+        icon: SiSkillshare
     },
     {
         name: "Experience",
-        hash: "#experience"
+        hash: "#experience",
+        icon: AiFillExperiment
     },
     {
         name: "Contact",
-        hash: "#contact"
+        hash: "#contact",
+        icon: SiContactlesspayment
     }
 ] as const;
 

@@ -29,7 +29,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className="!scroll-smooth">
       <body 
           className={`${plusJakarta.variable} font-plus 
         bg-gray-50 text-gray-950 relative h-[5000px] pt-28 sm:pt-36 overflow-x-hidden`}
