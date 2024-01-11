@@ -2,7 +2,10 @@ import React from "react"
 import { CgWorkAlt } from "react-icons/cg"
 import { FaReact } from "react-icons/fa"
 import { LuGraduationCap } from "react-icons/lu"
-import eventify from "@/public/eventify.png"
+import eventifyImg from "@/public/images/eventifyImg.png"
+import audiobookImg from "@/public/images/audiobookImg.png"
+import newsinImg from "@/public/images/newsinImg.png"
+import techdabateImg from "@/public/images/techdabateImg.png"
 
 
 
@@ -17,7 +20,7 @@ export const links = [
     },
     {
         name: "Projects",
-        hash: "#project"
+        hash: "#projects"
     },
     {
         name: "Skills",
@@ -60,13 +63,31 @@ export const experiencesData = [
 export const projectsData = [
     {
         title: "Eventify",
-        description: "I Worked as a Front-End Web Developer on capstone project",
-        tags: ["Laravel","TailwindCSS","JavaScript","SQL"]
+        description: "A web-based application that sells services such as catering, videography, photography, make-up artists, and events.",
+        tags: ["Laravel","TailwindCSS","JavaScript","SQL"],
+        linkUrl: "https://github.com/kelompok-1-Gitsid/Eventify",
+        imageUrl: eventifyImg,
     },
     {
         title: "Audiobook Polimedia",
-        description: "",
-        tags: ["Laravel","TailwindCSS","DaisyUI","JavaScript","SQL"]
+        description: "Web-based application as a web for reading while listening to stories.",
+        tags: ["Laravel","TailwindCSS","DaisyUI","JavaScript","SQL"],
+        linkUrl: "https://github.com/asyarbre/audiobook-web",
+        imageUrl: audiobookImg,
+    },
+    {
+        title: "NewsIn",
+        description: "Simple web-based application as a web to input the latest news.",
+        tags: ["Laravel","TailwindCSS","DaisyUI","JavaScript","SQL"],
+        linkUrl: "https://github.com/Nadhiradhit/newsin-app",
+        imageUrl: newsinImg,
+    },
+    {
+        title: "Techdabate",
+        description: "Web-based application as a web to provide information about the latest technology.",
+        tags: ["HTML","JavaScript","TailwindCSS"],
+        linkUrl: "https://github.com/Nadhiradhit/Tugas-UAS-ProjectWebsiteDinamis",
+        imageUrl: techdabateImg,
     },
 ] as const;
 

@@ -21,10 +21,10 @@ export default function Links() {
                 className="button-secondary flex items-center justify-center gap-2">
                     Download My CV <HiDownload className="opacity-60 group-hover:translate-y-2 transition"/>
                 </a>
-                <a href="https://www.linkedin.com/in/nadhiradhitt/" className="bg-white p-4 rounded-full text-[1.35rem]">
+                <a href="https://www.linkedin.com/in/nadhiradhitt/" className="button-icon">
                     <BsLinkedin/>
                 </a>
-                <a href="https://github.com/Nadhiradhit" className="bg-white p-4 rounded-full text-[1.35rem]">
+                <a href="https://github.com/Nadhiradhit" className="button-icon">
                     <BsGithub/>
                 </a>
         </motion.div>

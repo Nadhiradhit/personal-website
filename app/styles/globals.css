@@ -13,6 +13,9 @@
 
     .button-secondary{
         @apply w-[13rem] bg-slate-200 text-black px-2 py-3 rounded-full outline-none
-        focus:scale-110 hover:scale-110 hover:bg-slate-400 active:scale-105 transition
+        focus:scale-110 hover:scale-110 hover:bg-blue-200 active:scale-105 transition
+    }
+    .button-icon{
+        @apply bg-white p-4 rounded-full text-[1.35rem] outline-none focus:scale-110 hover:scale-110 hover:bg-slate-200 active:scale-105 transition
     }
 }
