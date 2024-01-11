@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities{
+    .text-gradient{
+        @apply  bg-clip-text text-transparent bg-gradient-to-br from-blue-600 to-emerald-700
+    }
+    .button-primary{
+        @apply w-[13rem] bg-slate-900 text-white px-2 py-3 rounded-full outline-none
+        focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition
+    }
+
+    .button-secondary{
+        @apply w-[13rem] bg-slate-200 text-black px-2 py-3 rounded-full outline-none
+        focus:scale-110 hover:scale-110 hover:bg-slate-400 active:scale-105 transition
+    }
+}
