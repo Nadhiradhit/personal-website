@@ -2,7 +2,7 @@
 import SectionHeading from '@/components/elements/section-heading'
 import { projectsData } from '@/lib/data'
 import React from 'react'
-import Project from '@/components/elements/card'
+import Project from '@/components/elements/card-project'
 
 export default function Projects() {
     return (
