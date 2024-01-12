@@ -38,15 +38,14 @@ export default function Intro() {
                 </div>
             </div>
             <motion.h1 
-                className="mb-8 mt-4 px-4 text-xl font-medium !leading[1.5] text-center"
+                className="mb-8 mt-4 px-4 text-xl font-medium !leading[1.5] text-center text-slate-600"
                 initial={{ y: 100, originZ: 0.5,  opacity: 0 }}
                 animate={{ y: 0, originZ: 0, opacity: 1 }}
                 transition={{ delay: 0.2, ease: easeInOut, }}
                 >
-                <span className="font-semibold">I'm Nadhir Adhitya Zhalifunnas.{" "}</span>
-                I'm a{" "}<span className="font-medium">Full-Stack Web Developer And Front-End Web Developer </span>
-                with{" "}<span className="font-bold">3 years </span>of experience. I enjoy building <span className="font-light">
-                Website with a powerfull design, and also i enjoy to design a website.</span>
+                <span className="font-bold text-slate-950">I'm Nadhir Adhitya Zhalifunnas.{" "}</span>
+                I'm a{" "}<span className="font-bold text-slate-950">Full-Stack Web Developer And Front-End Web Developer </span>
+                with 3 years of experience. I enjoy building <span className="font-bold text-slate-950"> Website with a powerfull design, and also i enjoy to design a website.</span>
                 Right know i'm focus at {" "}<span className="text-blue-500 font-semibold">Next.js and Tailwind.</span>
             </motion.h1>
 

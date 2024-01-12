@@ -1,12 +1,11 @@
 import React from "react"
-import { CgWorkAlt } from "react-icons/cg"
-import { FaReact } from "react-icons/fa"
-import { LuGraduationCap } from "react-icons/lu"
 import eventifyImg from "@/public/images/eventifyImg.png"
 import audiobookImg from "@/public/images/audiobookImg.png"
 import newsinImg from "@/public/images/newsinImg.png"
 import techdabateImg from "@/public/images/techdabateImg.png"
-import { HiHome } from "react-icons/hi"
+import logoGits from "@/public/images/logoGits.jpg"
+import logoPolimedia from "@/public/images/logoPolimedia.png"
+import logoDigital from "@/public/images/logoDigital.png"
 import { SiAboutdotme, SiContactlesspayment, SiHomeadvisor, SiSaltproject, SiSkillshare } from "react-icons/si"
 import { AiFillExperiment } from "react-icons/ai"
 
@@ -29,14 +28,15 @@ export const links = [
         icon: SiSaltproject
     },
     {
+        name: "Experiences",
+        hash: "#experience",
+        icon: AiFillExperiment
+        
+    },
+    {
         name: "Skills",
         hash: "#skill",
         icon: SiSkillshare
-    },
-    {
-        name: "Experience",
-        hash: "#experience",
-        icon: AiFillExperiment
     },
     {
         name: "Contact",
@@ -47,25 +47,31 @@ export const links = [
 
 export const experiencesData = [
     {
-        title: "Full-Stack Web Developer - Studi Independen Batch 5",
+        title: "Full-Stack Web Developer",
+        type: "Studi Independen",
         location: "PT. Gits Indonesia",
         description:
         "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
         date: "August 2023 - December 2023",
+        logoUrl: logoGits,
     },
     {
         title: "Junior Web Developer",
+        type: "Bootcamp",
         location: "Digital Talent Scholarship",
         description:
         "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
         date: "July 2023 - August 2023",
+        logoUrl: logoDigital,
     },
     {
-        title: "Freelance Front-End Web Developer",
+        title: "Front-End Web Developer",
+        type: "Part Time",
         location: "Politeknik Negeri Media Kreatif Jakarta",
         description:
         "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-        date: "July 2023 - August 2023",
+        date: "June 2023 - August 2023",
+        logoUrl: logoPolimedia,
     },
 ] as const;
 
