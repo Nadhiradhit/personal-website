@@ -1,10 +1,10 @@
 "use client"
-import React from 'react'
-import Link from 'next/link'
-import { BsArrowRight, BsGithub, BsLinkedin } from 'react-icons/bs'
-import { HiDownload } from 'react-icons/hi'
-import { motion } from 'framer-motion'
-import { easeInOut } from 'framer-motion'
+import React from "react"
+import Link from "next/link"
+import { BsArrowRight, BsGithub, BsLinkedin } from "react-icons/bs"
+import { HiDownload } from "react-icons/hi"
+import { motion } from "framer-motion"
+import { easeInOut } from "framer-motion"
 
 export default function Links() {
     return (

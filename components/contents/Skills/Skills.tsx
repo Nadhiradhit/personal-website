@@ -1,10 +1,10 @@
 "use client"
-import SectionHeading from '@/components/elements/section-heading'
-import { skillsData } from '@/lib/data'
-import { useSectionInView } from '@/lib/hooks'
-import React from 'react'
-import { motion } from 'framer-motion'
-import { once } from 'events'
+import SectionHeading from "@/components/elements/section-heading"
+import { skillsData } from "@/lib/data"
+import { useSectionInView } from "@/lib/hooks"
+import React from "react"
+import { motion } from "framer-motion"
+import { once } from "events"
 
 const fadeInAnimation = {
     initial : {

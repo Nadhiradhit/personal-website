@@ -1,10 +1,10 @@
 "use client"
 
-import { projectsData } from '@/lib/data'
-import { useRef } from 'react'
-import Image from 'next/image'
-import Link from 'next/link'
-import { motion,useScroll, useTransform } from 'framer-motion'
+import { projectsData } from "@/lib/data"
+import { useRef } from "react"
+import Image from "next/image"
+import Link from "next/link"
+import { motion,useScroll, useTransform } from "framer-motion"
 
 type ProjectProps = (typeof projectsData)[number]
 export default function Project({ title,description,tags,linkUrl,imageUrl }: ProjectProps){

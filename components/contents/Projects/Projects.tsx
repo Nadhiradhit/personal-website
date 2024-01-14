@@ -1,9 +1,9 @@
 "use client"
-import SectionHeading from '@/components/elements/section-heading'
-import { projectsData } from '@/lib/data'
-import React, { useEffect } from 'react'
-import Project from '@/components/elements/cards/card-project'
-import { useSectionInView } from '@/lib/hooks'
+import SectionHeading from "@/components/elements/section-heading"
+import { projectsData } from "@/lib/data"
+import React, { useEffect } from "react"
+import Project from "@/components/elements/cards/card-project"
+import { useSectionInView } from "@/lib/hooks"
 
 export default function Projects() {
     const { ref } = useSectionInView("Projects", 0.5)

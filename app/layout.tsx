@@ -1,8 +1,7 @@
 import { Header } from "@/components/layouts/header"
-
-import type { Metadata } from 'next'
-import { Inter, Plus_Jakarta_Sans, Poppins } from 'next/font/google'
-import '@/app/styles/globals.css'
+import type { Metadata } from "next"
+import { Inter, Plus_Jakarta_Sans, Poppins } from "next/font/google"
+import "@/app/styles/globals.css"
 import ActiveSectionContentProvider from "@/components/elements/header/active-section-content"
 import Footer from "@/components/layouts/footer"
 import ThemeSwitcher from "@/components/elements/header/theme-switcher"

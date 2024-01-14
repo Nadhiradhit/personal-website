@@ -1,8 +1,8 @@
 "use client"
-import React, { useEffect } from 'react'
-import SectionHeading from '@/components/elements/section-heading'
-import { motion } from 'framer-motion'
-import { useSectionInView } from '@/lib/hooks'
+import React, { useEffect } from "react"
+import SectionHeading from "@/components/elements/section-heading"
+import { motion } from "framer-motion"
+import { useSectionInView } from "@/lib/hooks"
 
 export default function About() {
     const { ref } = useSectionInView("About")

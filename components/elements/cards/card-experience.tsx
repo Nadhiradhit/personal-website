@@ -1,8 +1,8 @@
 "use client"
-import { useRef } from 'react'
-import { experiencesData } from '@/lib/data'
-import Image from 'next/image'
-import { motion,useScroll, useTransform } from 'framer-motion'
+import { useRef } from "react"
+import { experiencesData } from "@/lib/data"
+import Image from "next/image"
+import { motion,useScroll, useTransform } from "framer-motion"
 
 type ExperienceProps = (typeof experiencesData)[number]
 export default function Experience({ title, type, location, description, date, logoUrl}: ExperienceProps) {
