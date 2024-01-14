@@ -17,7 +17,7 @@ export default function Intro() {
                         transition={{ type: "spring", delay: 0.1, stiffness: 125, duration:0.7}}
                     >
                         <h1 className="text-4xl text-center">
-                            <span className="font-poppins  font-semibold text-gradient">Hello Everyone! </span> 
+                            <span className="font-poppins  font-semibold">Hello Everyone! </span> 
                         </h1>
                         
                     </motion.div>
@@ -39,15 +39,15 @@ export default function Intro() {
                 </div>
             </div>
             <motion.h1 
-                className="mb-8 mt-4 px-4 text-xl font-medium !leading[1.5] text-center text-slate-800"
+                className="mb-8 mt-4 px-4 text-xl font-medium !leading[1.5] text-center text-slate-800 dark:text-gray-400"
                 initial={{ y: 100, originZ: 0.5,  opacity: 0 }}
                 animate={{ y: 0, originZ: 0, opacity: 1 }}
                 transition={{ delay: 0.2, ease: easeInOut, }}
                 >
-                <span className="font-bold text-slate-950">I'm Nadhir Adhitya Zhalifunnas.{" "}</span>
-                I'm a{" "}<span className="font-bold text-slate-950">Full-Stack Web Developer And Front-End Web Developer </span>
+                <span className="font-bold text-slate-950 dark:text-gray-200">I'm Nadhir Adhitya Zhalifunnas.{" "}</span>
+                I'm a{" "}<span className="font-bold text-slate-950 dark:text-gray-200">Full-Stack Web Developer And Front-End Web Developer </span>
                 with 3 years of experience. I enjoy building Website with a powerfull design, and also i enjoy to design a website.
-                Right know i'm focus at {" "}<span className="text-blue-500 font-semibold">Next.js and Tailwind.</span>
+                Right know i'm focus at {" "}<span className="text-slate-950 dark:text-gray-200 font-semibold">Next.js and Tailwind.</span>
             </motion.h1>
 
             <Links/>
