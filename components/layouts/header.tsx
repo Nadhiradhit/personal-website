@@ -1,11 +1,14 @@
 "use client"
-import React, { useState } from 'react'
+import React from 'react'
 import { easeInOut, motion } from 'framer-motion'
 import { links } from '@/lib/data'
 import Link from 'next/link'
+import clsx from 'clsx'
+import { useActiveSectionContent } from '../elements/header/active-section-content'
+
 
 export function Header() {
-    useState((''))
+    const { activeSection,setActiveSection, setTimeOfLastClick } = useActiveSectionContent()
     return (
     <header className="z-[999] relative">
         <motion.div
@@ -26,8 +29,29 @@ export function Header() {
                         transition={{ delay: 0.2, ease: easeInOut}}
                     >
                         <Link 
-                        className="flex w-full items-center justify-center px-3 py-3 hover:text-gray-950 transition"
-                        href={link.hash}>{link.name}</Link>
+                        className={clsx("flex w-full items-center justify-center px-3 py-3 hover:text-gray-950 transition",{
+                            "text-gray-950": activeSection === link.name,
+                        })}
+                        href={link.hash}
+                        onClick={() => {
+                            setTimeOfLastClick(Date.now())
+                            setActiveSection(link.name)
+                            }}>
+                            {link.name}
+                            {
+                                link.name === activeSection && (
+                                    <motion.span className="bg-blue-100 rounded-full absolute inset-0 -z-10"
+                                    layoutId="activeSection"
+                                    transition={{
+                                        type: "spring",
+                                        stiffness: 380,
+                                        damping: 30,
+                                    }}
+                                    ></motion.span>
+                                )
+                            }
+                                
+                            </Link>
                     </motion.li>
                 ))}
             </ul>

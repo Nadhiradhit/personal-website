@@ -4,7 +4,7 @@
 
 @layer utilities{
     .text-gradient{
-        @apply  bg-clip-text text-transparent bg-gradient-to-br from-blue-600 to-emerald-700
+        @apply  bg-clip-text text-transparent bg-gradient-to-br from-blue-500 to-sky-700
     }
     .button-primary{
         @apply w-[13rem] bg-slate-900 text-white px-2 py-3 rounded-full outline-none
