@@ -1,9 +1,9 @@
 "use client"
-import SectionHeading from '@/components/elements/section-heading'
-import { useSectionInView } from '@/lib/hooks'
-import { motion, useScroll, useTransform } from 'framer-motion'
-import React, {useRef} from 'react'
-import { BsGithub, BsLinkedin } from 'react-icons/bs'
+import SectionHeading from "@/components/elements/section-heading"
+import { useSectionInView } from "@/lib/hooks"
+import { motion, useScroll, useTransform } from "framer-motion"
+import React, {useRef} from "react"
+import { BsGithub, BsLinkedin } from "react-icons/bs"
 
 export default function Contact() {
     const scroll = useRef<HTMLDivElement>(null)

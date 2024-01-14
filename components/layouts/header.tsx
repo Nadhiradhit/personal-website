@@ -1,10 +1,10 @@
 "use client"
-import React from 'react'
-import { easeInOut, motion } from 'framer-motion'
-import { links } from '@/lib/data'
-import Link from 'next/link'
-import clsx from 'clsx'
-import { useActiveSectionContent } from '../elements/header/active-section-content'
+import React from "react"
+import { easeInOut, motion } from "framer-motion"
+import { links } from "@/lib/data"
+import Link from "next/link"
+import clsx from "clsx"
+import { useActiveSectionContent } from "../elements/header/active-section-content"
 
 
 export function Header() {

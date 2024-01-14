@@ -1,9 +1,9 @@
 "use client"
-import React, { useEffect } from 'react'
-import Image from 'next/image'
-import { motion,easeInOut } from 'framer-motion'
-import  Links  from '@/components/elements/link-nav'
-import { useSectionInView } from '@/lib/hooks'
+import React, { useEffect } from "react"
+import Image from "next/image"
+import { motion,easeInOut } from "framer-motion"
+import  Links  from "@/components/elements/link-nav"
+import { useSectionInView } from "@/lib/hooks"
 
 export default function Intro() {
     const { ref } = useSectionInView("Home", 0.5)
