@@ -36,6 +36,7 @@ export default function Experience({ title, type, location, description, date, l
                 </div>
                 <div className="text-sm">
                     <p className="font-semibold text-xs mb-1">{date}</p>
+                    <p className="mb-1 mt-2 text-slate-900">{location}</p>
                     <p className="">{description}</p>
                 </div>
             </div>
