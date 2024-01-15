@@ -15,9 +15,9 @@ export default function Contact() {
     const opacityProgress = useTransform(scrollYProgress, [0, 1], [0.6, 1])
     const { ref } = useSectionInView("Contact", 0.5)
     return (
-        <section ref={ref} id="contact" className="text-slate-950 z-10 mt-28 max-w-[53rem] scroll-mt-28 sm:mb-40">
+        <section ref={ref} id="contact" className="text-slate-950 z-10 mt-28 max-w-[53rem] w-full scroll-mt-28 sm:mb-40">
             <SectionHeading> Contact Me!</SectionHeading>
-            <p className="text-xl font-semibold dark:text-slate-50">You can reach me on Github or linkedIn 😉</p>
+            <p className="text-md md:text-xl font-semibold dark:text-slate-50 text-center mb-5">You can reach me on Github or linkedIn 😉</p>
                 <motion.div ref={scroll} className="flex justify-center items-center gap-5 my-3"
                 style={{
                     scale: scaleProgress,

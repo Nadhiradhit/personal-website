@@ -34,16 +34,12 @@ export default function RootLayout({
     <html lang="en" className="!scroll-smooth">
       <body 
           className={`${plusJakarta.variable} font-plus 
-        bg-gray-50 text-gray-950 relative pt-28 sm:pt-36 overflow-x-hidden
+        bg-gray-50 text-gray-950 relative pt-28 sm:pt-36 
           dark:bg-gray-950 dark:text-gray-50 transition-all
         `}
         > 
-        <div className="bg-[#adcef3] absolute top-[-6rem] -z-10 right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem]
-          dark:bg-[#1a2744]
-        "></div>
-        <div className="bg-[#c3d8f8] absolute top-[-1rem] -z-10 left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem]
-        dark:bg-[#342d77]
-        "></div>
+        <div className="bg-[#fbe2e3] absolute top-[-6rem] -z-10 right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] dark:bg-[#946263]"></div>
+        <div className="bg-[#dbd7fb] absolute top-[-1rem] -z-10 left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem] dark:bg-[#676394]"></div>
         
         <ActiveSectionContentProvider>
           <Header />

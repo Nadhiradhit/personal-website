@@ -44,7 +44,7 @@ export default function Skills() {
                         ))
                     }
                 </ul>
-            <div className="bg-gradient-to-tl from-[#a1f19e] to-[#74bce6] absolute top-[-1rem] -z-10 left-[60rem] h-[20.25rem] sm:h-[10.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem]
+            <div className="bg-gradient-to-tl from-[#a1f19e] to-[#74bce6] absolute top-[-3rem] -z-10 left-[-30rem] h-[20.25rem] sm:h-[10.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem]
             dark:from-[#40295a] dark:to-[#6f4599]
             "></div>
             </div>
