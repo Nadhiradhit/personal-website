@@ -29,7 +29,7 @@ export default function Intro() {
                         transition={{ type: "spring", delay: 0.1, stiffness: 125, duration:0.7}}
                     >                    
                         <Image 
-                            src="/images/profile.jpg"
+                            src="/images/profile.png"
                             alt="Profile Picture"
                             width="1000"
                             height="1000"
