@@ -44,10 +44,10 @@ export default function Intro() {
                 animate={{ y: 0, originZ: 0, opacity: 1 }}
                 transition={{ delay: 0.2, ease: easeInOut, }}
                 >
-                <span className="font-bold text-slate-950 dark:text-gray-200">I'm Nadhir Adhitya Zhalifunnas.{" "}</span>
-                I'm a{" "}<span className="font-bold text-slate-950 dark:text-gray-200">Full-Stack Web Developer And Front-End Web Developer </span>
-                with 3 years of experience. I enjoy building Website with a powerfull design, and also i enjoy to design a website.
-                Right know i'm focus at {" "}<span className="text-slate-950 dark:text-gray-200 font-semibold">Next.js and Tailwind.</span>
+                My name <span className="font-bold text-slate-950 dark:text-gray-200">Nadhir Adhitya Zhalifunnas.{" "}</span>
+                I'm a{" "}<span className="font-bold text-slate-950 dark:text-gray-200">Full-Stack Web Developer </span>
+                with 3 years of experience. I enjoy building websites with a powerfull design, i also enjoy to design a websites.
+                Right now im focused at working in {" "}<span className="text-slate-950 dark:text-gray-200 font-semibold">Next.js and Tailwind.</span>
             </motion.h1>
 
             <Links/>

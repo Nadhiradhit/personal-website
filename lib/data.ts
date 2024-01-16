@@ -6,8 +6,8 @@ import techdabateImg from "@/public/images/techdabateImg.png"
 import logoGits from "@/public/images/logoGits.jpg"
 import logoPolimedia from "@/public/images/logoPolimedia.png"
 import logoDigital from "@/public/images/logoDigital.png"
-import { SiAboutdotme, SiContactlesspayment, SiHomeadvisor, SiSaltproject, SiSkillshare } from "react-icons/si"
-import { AiFillExperiment } from "react-icons/ai"
+import logoTelkom from "@/public/images/logoTelkom.png"
+
 
 
 
@@ -15,33 +15,26 @@ export const links = [
     {
         name: "Home",
         hash: "#home",
-        icon: SiHomeadvisor
     },
     {
         name: "About",
         hash: "#about",
-        icon: SiAboutdotme
     },
     {
         name: "Projects",
         hash: "#projects",
-        icon: SiSaltproject
     },
     {
         name: "Experiences",
         hash: "#experience",
-        icon: AiFillExperiment
-        
     },
     {
         name: "Skills",
         hash: "#skill",
-        icon: SiSkillshare
     },
     {
         name: "Contact",
         hash: "#contact",
-        icon: SiContactlesspayment
     }
 ] as const;
 
@@ -50,8 +43,6 @@ export const experiencesData = [
         title: "Full-Stack Web Developer",
         type: "Studi Independen",
         location: "PT. Gits Indonesia",
-        description:
-        "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
         date: "August 2023 - December 2023",
         logoUrl: logoGits,
     },
@@ -59,8 +50,6 @@ export const experiencesData = [
         title: "Junior Web Developer",
         type: "Bootcamp",
         location: "Digital Talent Scholarship",
-        description:
-        "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
         date: "July 2023 - August 2023",
         logoUrl: logoDigital,
     },
@@ -68,10 +57,15 @@ export const experiencesData = [
         title: "Front-End Web Developer",
         type: "Part Time",
         location: "Politeknik Negeri Media Kreatif Jakarta",
-        description:
-        "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
         date: "June 2023 - August 2023",
         logoUrl: logoPolimedia,
+    },
+    {
+        title: "High School Internship",
+        type: "Intership",
+        location: "PT. Telkom Akses Bogor",
+        date: "January 2020 - March 2020",
+        logoUrl: logoTelkom,
     },
 ] as const;
 
