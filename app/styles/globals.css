@@ -22,7 +22,7 @@
     }
     .button-contact{
         @apply flex items-center justify-center gap-2 bg-white w-48 p-4 rounded-lg text-[0.95rem] outline-none focus:scale-110 hover:scale-110 hover:bg-slate-200 active:scale-105 transition
-        dark:bg-slate-900 dark:text-slate-50
+        dark:bg-slate-900 dark:text-slate-50 hover:dark:bg-indigo-600
     }
     
     .button-theme{

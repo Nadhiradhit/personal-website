@@ -3,6 +3,7 @@ import eventifyImg from "@/public/images/eventifyImg.png"
 import audiobookImg from "@/public/images/audiobookImg.png"
 import newsinImg from "@/public/images/newsinImg.png"
 import techdabateImg from "@/public/images/techdabateImg.png"
+import personalImg from "@/public/images/personalImg.png"
 import logoGits from "@/public/images/logoGits.jpg"
 import logoPolimedia from "@/public/images/logoPolimedia.png"
 import logoDigital from "@/public/images/logoDigital.png"
@@ -70,6 +71,13 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+    {
+        title: "Personal Web",
+        description: "Web-base application as a portofolio web that's include an experience and skill",
+        tags: ["Next.js","TailwindCSS",],
+        linkUrl: "https://porto-nadhir.vercel.app/",
+        imageUrl: personalImg,
+    },
     {
         title: "Eventify",
         description: "A web-based application that sells services such as catering, videography, photography, make-up artists, and events.",
