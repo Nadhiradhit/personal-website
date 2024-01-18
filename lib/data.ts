@@ -94,7 +94,7 @@ export const projectsData = [
     },
     {
         title: "NewsIn",
-        description: "Simple web-based application as a web to input the latest news.",
+        description: "Simple web-based application as a web to input the latest news. Trying to make CRUD On Laravel",
         tags: ["Laravel","DaisyUI","JavaScript","SQL"],
         linkUrl: "https://github.com/Nadhiradhit/newsin-app",
         imageUrl: newsinImg,
