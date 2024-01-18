@@ -99,13 +99,13 @@ export const projectsData = [
         linkUrl: "https://github.com/Nadhiradhit/newsin-app",
         imageUrl: newsinImg,
     },
-    {
-        title: "Techdabate",
-        description: "Web-based application as a web to provide information about the latest technology.",
-        tags: ["HTML","JavaScript","TailwindCSS"],
-        linkUrl: "https://github.com/Nadhiradhit/Tugas-UAS-ProjectWebsiteDinamis",
-        imageUrl: techdabateImg,
-    },
+    // {
+    //     title: "Techdabate",
+    //     description: "Web-based application as a web to provide information about the latest technology.",
+    //     tags: ["HTML","JavaScript","TailwindCSS"],
+    //     linkUrl: "https://github.com/Nadhiradhit/Tugas-UAS-ProjectWebsiteDinamis",
+    //     imageUrl: techdabateImg,
+    // },
 ] as const;
 
 export const skillsData = [
