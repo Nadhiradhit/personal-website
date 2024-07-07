@@ -1,13 +1,13 @@
 import React from "react";
-import eventifyImg from "../public/images/eventifyImg.png";
-import audiobookImg from "../public/images/audiobookImg.png";
-import newsinImg from "../public/images/newsinImg.png";
-import techdabateImg from "../public/images/techdabateImg.png";
-import personalImg from "../public/images/personalImg.png";
-import logoGits from "../public/images/logoGits.jpg";
-import logoPolimedia from "../public/images/logoPolimedia.png";
-import logoDigital from "../public/images/logoDigital.png";
-import logoTelkom from "../public/images/logoTelkom.png";
+import eventifyImg from "@/public/images/eventifyImg.png";
+import audiobookImg from "@/public/images/audiobookImg.png";
+import newsinImg from "@/public/images/newsinImg.png";
+import techdabateImg from "@/public/images/techdabateImg.png";
+import personalImg from "@/public/images/personalImg.png";
+import logoGits from "@/public/images/logoGits.jpg";
+import logoPolimedia from "@/public/images/logoPolimedia.png";
+import logoDigital from "@/public/images/logoDigital.png";
+import logoTelkom from "@/public/images/logoTelkom.png";
 
 export const links = [
 	{
