@@ -8,6 +8,7 @@ import logoGits from "@/public/images/logoGits.jpg";
 import logoPolimedia from "@/public/images/logoPolimedia.png";
 import logoDigital from "@/public/images/logoDigital.png";
 import logoTelkom from "@/public/images/logoTelkom.png";
+import PilihImg from "@/public/images/pilihImg.jpg";
 
 export const links = [
 	{
@@ -38,8 +39,15 @@ export const links = [
 
 export const experiencesData = [
 	{
+		title: "Front-End Web Developer",
+		type: "Magang Merdeka Batch 6",
+		location: "PT. Pilihanmu Indonesia Jaya",
+		date: "February 2024 - June 2024",
+		logoUrl: PilihImg,
+	},
+	{
 		title: "Full-Stack Web Developer",
-		type: "Studi Independen",
+		type: "Studi Independen Batch 5",
 		location: "PT. Gits Indonesia",
 		date: "August 2023 - December 2023",
 		logoUrl: logoGits,
