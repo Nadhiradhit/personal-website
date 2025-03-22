@@ -19,12 +19,11 @@ export default function About() {
 				<p className="mb-3">
 					Experienced with{" "}
 					<span className="font-bold">
-						Full Stack Web Developer and Frontend Web Developer
+						Full Stack Developer and Frontend Developer
 					</span>{" "}
 					, Skilled in a wide range of technologies including{" "}
 					<span className="font-bold">
-						HTML, CSS, Javascript, PHP, Laravel, Next.js, Node.js, Tailwindcss,
-						Bootstrapcss.
+						HTML, CSS, Javascript, PHP, Laravel, Next.js, Node.js, Tailwindcss.
 					</span>{" "}
 					My favorite part of programming is design website, and problem-solving
 					aspect. Who has some value to build a creative and interactive
@@ -32,7 +31,7 @@ export default function About() {
 					and weel to collaborate in a team. I am always looking to learn new
 					technologies. I am currently looking for a{" "}
 					<span className="font-bold"> full-time </span> position as a
-					Full-Stack Web Developer and Front-End Web Developer.
+					Full-Stack Developer and Front-End Developer.
 				</p>
 				<div
 					className="bg-gradient-to-tr from-[#b3f0e8] to-[#ceecfd] absolute top-[-1rem] -z-10 left-[-30rem] 
