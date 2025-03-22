@@ -10,7 +10,7 @@ import logoDigital from "@/public/images/logoDigital.png";
 import logoTelkom from "@/public/images/logoTelkom.png";
 import PilihImg from "@/public/images/pilihImg.jpg";
 import servicesHumas from "@/public/images/servicesHumas.png";
-import locationApp from "@/public/images/LocationImg.png";
+import locationApp from "@/public/images/locationImg.png";
 
 export const links = [
 	{
