@@ -63,7 +63,7 @@ export default function Intro() {
 				<span className="font-bold text-slate-950 dark:text-gray-200">
 					Full-Stack Developer and Front-end developer{" "}
 				</span>
-				with 4 years of experience. I enjoy building websites with a powerfull
+				with 5 years of experience. I enjoy building websites with a powerfull
 				design, i also enjoy to design a websites. Right now im focused at
 				working in{" "}
 				<span className="text-slate-950 dark:text-gray-200 font-semibold">
