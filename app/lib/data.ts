@@ -8,9 +8,11 @@ import logoGits from "@/public/images/logoGits.jpg";
 import logoPolimedia from "@/public/images/logoPolimedia.png";
 import logoDigital from "@/public/images/logoDigital.png";
 import logoTelkom from "@/public/images/logoTelkom.png";
+import logoSolera from "@/public/images/logoSolera.png";
 import PilihImg from "@/public/images/pilihImg.jpg";
 import servicesHumas from "@/public/images/servicesHumas.png";
 import locationApp from "@/public/images/locationImg.png";
+import soleraImage from "@/public/images/soleraImg.png";
 
 export const links = [
 	{
@@ -40,6 +42,13 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
+	{
+		title: "Front-End Developer",
+		type: "Freelance",
+		location: "PT. Solera Crypto Network",
+		date: "February 2024 - Present",
+		logoUrl: logoSolera,
+	},
 	{
 		title: "Full-Stack Web Developer",
 		type: "Freelance",
@@ -85,6 +94,14 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+	{
+		title: "Solera MarketPlace",
+		description:
+			"Solera is a school-focused exchange platform that uses Solera Tokens (SLRT) to streamline campus transactions.",
+		tags: ["Next.js", "TailwindCSS", "TypeScript", "Axios"],
+		linkUrl: "#",
+		imageUrl: soleraImage,
+	},
 	{
 		title: "LoCaption Web App",
 		description:
