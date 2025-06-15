@@ -46,7 +46,7 @@ export const experiencesData = [
 		title: "Front-End Developer",
 		type: "Freelance",
 		location: "PT. Solera Crypto Network",
-		date: "February 2024 - Present",
+		date: "May 2025 - Present",
 		logoUrl: logoSolera,
 	},
 	{
